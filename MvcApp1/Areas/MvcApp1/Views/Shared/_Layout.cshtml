@@ -22,8 +22,21 @@
                     <li class="nav-item">
                         <a href="~/Home/Index" class="nav-link">HOME HOST</a>
                     </li>
-                    <li class="nav-item">
+                    @*<li class="nav-item">
                         <a href="~/MvcApp1/Home/Index" class="nav-link">MvcApp1</a>
+                    </li>*@
+                    <li>
+                        <div class="main-menu">
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownLangButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    MvcApp1 items
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownLangButton">
+                                    <a asp-area="MvcApp1" asp-controller="Home" asp-action="Index" class="dropdown-item">MvcApp1</a>
+                                    <a asp-area="MvcApp1" asp-controller="SomeDatas" asp-action="Index" class="dropdown-item">SomeData</a>
+                                </div>
+                            </div>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a href="~/MvcApp2/Home/Index" class="nav-link">MvcApp2</a>
