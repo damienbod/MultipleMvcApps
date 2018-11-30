@@ -120,4 +120,7 @@
   <data name="about" xml:space="preserve">
     <value>Über</value>
   </data>
+  <data name="HOME HOST" xml:space="preserve">
+    <value>Hauptapplikation</value>
+  </data>
 </root>

@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Options;
 using MvcApp1;
 using MvcApp2;
 using System.Collections.Generic;
@@ -80,6 +81,9 @@ namespace HostMvcApp
                 app.UseExceptionHandler("/Home/Error");
                 app.UseHsts();
             }
+
+            var locOptions = app.ApplicationServices.GetService<IOptions<RequestLocalizationOptions>>();
+            app.UseRequestLocalization(locOptions.Value);
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
