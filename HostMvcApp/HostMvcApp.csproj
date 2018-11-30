@@ -17,8 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\MvcApp1\" />
-    <Folder Include="Areas\MvcApp2\" />
+    <Folder Include="Areas\" />
   </ItemGroup>
 
 </Project>
