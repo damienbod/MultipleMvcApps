@@ -1,0 +1,10 @@
+/.vs
+/**/bin/**/*.*
+/**/node_modules/**/*.*
+/**/obj/**/*.*
+**/*.csproj.user
+/MvcApp2/node_modules/*.*
+/MvcApp2/node_modules/bootstrap/LICENSE
+/HostMvcApp/ScaffoldingReadMe.txt
+/HostMvcApp/node_modules/bootstrap/LICENSE
+/MvcApp1/node_modules/bootstrap/LICENSE
