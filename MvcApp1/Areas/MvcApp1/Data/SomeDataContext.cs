@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
-using MvcApp1.Areas.MvcApp1.Models;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace MvcApp1.Models
 {
