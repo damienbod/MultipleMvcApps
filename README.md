@@ -1,1 +1,1 @@
-# MultipleMvcApps
+# Using multiple ASP.NET Core applications inside a host MVC application
